@@ -31,10 +31,10 @@ $city = $mi_city->fetchAll(PDO::FETCH_ASSOC);
       <caption><h2>TABLE SHOWING COUNTRIES<h2></caption>
     <thead>
       <tr>
-          <mth class = "mth1">Name</th>
-          <mth class = "mth2">Continent</th>
-          <mth class = "mth3">Independence</th>
-          <mth class = "mth4">Name of State</th>
+          <th class = "mth1">Name</th>
+          <th class = "mth2">Continent</th>
+          <th class = "mth3">Independence</th>
+          <th class = "mth4">Name of State</th>
       </tr>
     </thead>
     <tbody>
@@ -51,12 +51,12 @@ $city = $mi_city->fetchAll(PDO::FETCH_ASSOC);
 <?php endif; ?>
 <?php if (isset($context)):?>
   <table class = "display">
-    <caption><h2>TABLE SHHOWING CITIES></h2></caption>
+    <caption><h2>TABLE SHOWING CITIES></h2></caption>
     <thead>
       <tr>
-        <mth class = "mth1">Name</th>
-        <mth class = "mth1">District</th>
-        <mth class = "mth1">Population</th>
+        <th class = "mth1">Name</th>
+        <th class = "mth1">District</th>
+        <th class = "mth1">Population</th>
       </tr>
     </thead>
     <tbody>
