@@ -1,1 +1,65 @@
-/* Add your own styles */
+/*CSS*/
+head{
+    color: white;
+    background-color:rgb(218, 197, 197);
+    padding: 15px;
+    
+}
+.title{
+    color: white;
+    justify-content: center;
+    
+}
+body {
+    margin: 0;
+    font-size: 18px;
+    background-color:rgb(195, 197, 202);
+    text-align: center;
+}
+ 
+
+button {
+    background-color:teal;
+    color: #ffffff;
+    padding: 10px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    height: 45px;
+    
+    
+}
+div.label{
+    height: auto;
+    width: auto;
+}
+
+input{
+    width: 280px;
+    padding:15px;
+    text-align: center;
+    color:teal;
+}
+
+table{
+    margin: 20px auto;
+    padding: 50px;
+    
+    
+}
+th{
+    border: 2px solid rgb(44, 45, 48);
+    background-color: rgb(233, 50, 50);
+    width: 300px; 
+    text-align: center; 
+    padding: 10px;
+    color: #000;
+}
+td{
+    width: 450px;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 0.5px solid cadetblue;
+    margin-bottom: 2px;
+}

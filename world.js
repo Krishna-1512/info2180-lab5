@@ -7,7 +7,6 @@ function mystarter(){
     countrybtn.addEventListener('click',function(element){
         element.preventDefault();
         var mi_form = document.getElementById("country").value;
-        console.log ("Error");
         fetch("world.php"+"? country=" +mi_form)
         .then(response =>{
             if (response.ok){
@@ -26,8 +25,7 @@ function mystarter(){
         element.preventDefault();
         var mi_form = document.getElementById("country").value;
         var cities= document.getElementById("country").value;
-        console.log ("Error");
-        fetch("world.php"+"?country= " +mi_form + "context=cities")
+        fetch("world.php"+"?country=" + mi_form + "&context=cities")
         .then(response =>{
             if (response.ok){
                 return response.text()
